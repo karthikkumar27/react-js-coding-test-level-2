@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .color-carousel-slide img {
+        height: 450px;
+    }
+}
