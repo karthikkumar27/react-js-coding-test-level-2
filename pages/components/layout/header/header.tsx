@@ -1,4 +1,4 @@
-export default function Header() {
+const Header: React.FC = () => {
   return (
     <header className="bg-white w-full">
         {/** Top Menu */}
@@ -36,3 +36,5 @@ export default function Header() {
     </header>
   )
 }
+
+export default Header;

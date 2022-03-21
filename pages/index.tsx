@@ -1,4 +1,4 @@
-export default function Home() {
+const Home: React.FC = () => {
   return (
     <>
       <main className="flex w-full flex-1 flex-col px-20">
@@ -7,3 +7,4 @@ export default function Home() {
     </>
   )
 }
+export default Home;

@@ -1,6 +1,6 @@
 import CategoryMenu from "../category-menu/category";
 
-export default function Carousel() {
+const Carousel: React.FC = () => {    
     return (
       <div className="color-carousel bg-purple-600 w-full">
             <div className="xl:container mx-auto">
@@ -19,4 +19,5 @@ export default function Carousel() {
       </div>
     )
   }
-  
+
+export default Carousel;

@@ -2,15 +2,19 @@ import Header from './header/header'
 import Footer from './footer/footer'
 import Carousel from '../carousel/carousel'
 
-export default function Layout({ children }) {
+const Layout: React.FC = ({ children }) => {
     return (
       <>
         <Header></Header>
         <Carousel></Carousel>
-        <div className="flex min-h-screen flex-col items-center justify-center">
-            {children}
-        </div>
+        <main className="w-full">
+            <div className="container mx-auto">
+                {children}
+            </div>
+        </main>  
         <Footer></Footer>
       </>
     )
   }
+  
+  export default Layout; 
